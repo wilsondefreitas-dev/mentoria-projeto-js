@@ -9,10 +9,12 @@ const product = {
   price: 200.2,
 };
 
+const productsList = [product, product, product];
+
 //
 
 function fillElement(className) {
-  const classSufix = "product__";
+  const classSufix = "1product__";
   const fullClassName = classSufix + className;
 
   const htmlList = document.getElementsByClassName(fullClassName);
@@ -33,6 +35,6 @@ fillElement("description");
 fillElement("price");
 fillElement("image");
 
-//1. nome da função
-//2. class do elemento
-//3. qual atributo do produto
+//
+
+// 1. criar HTML direto do JS
