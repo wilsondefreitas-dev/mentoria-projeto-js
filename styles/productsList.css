@@ -1,0 +1,28 @@
+.mainContainer {
+  width: 100%;
+  max-width: 1000px;
+  height: 2000px;
+  background-color: rgb(212, 212, 212);
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.subheader {
+  font-size: 24px;
+}
+
+.productContainer {
+  background-color: aqua;
+}
+
+.product {
+  background-color: red;
+
+  width: 50%;
+  max-width: 300px;
+}
