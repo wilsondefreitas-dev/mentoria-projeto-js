@@ -17,10 +17,13 @@
 }
 
 .productContainer {
+  display: flex;
+  flex-wrap: wrap;
   background-color: aqua;
 }
 
 .product {
+
   background-color: red;
 
   width: 50%;
